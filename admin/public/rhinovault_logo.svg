@@ -1,0 +1,53 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="shieldGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3E4C59"/>
+      <stop offset="100%" stop-color="#1A1D23"/>
+    </linearGradient>
+    <linearGradient id="rhinoGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E8A33D"/>
+      <stop offset="100%" stop-color="#B5761F"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Vault/shield backdrop -->
+  <path d="M120 12 L216 44 V116 C216 168 176 204 120 228 C64 204 24 168 24 116 V44 Z"
+        fill="url(#shieldGrad)" stroke="#0D0F12" stroke-width="3"/>
+
+  <!-- Inner rivet ring, vault-door feel -->
+  <circle cx="120" cy="120" r="86" fill="none" stroke="#5A6672" stroke-width="2" stroke-dasharray="4 7" opacity="0.5"/>
+
+  <!-- Rhino head, simplified low-poly silhouette -->
+  <g transform="translate(120,128)">
+    <!-- horn -->
+    <path d="M-6 -70 L10 -70 L4 -34 L-2 -34 Z" fill="url(#rhinoGrad)"/>
+    <!-- smaller front horn -->
+    <path d="M-14 -34 L-2 -34 L-6 -14 L-14 -18 Z" fill="url(#rhinoGrad)"/>
+    <!-- head / body silhouette, angular low-poly -->
+    <path d="M-70 40
+             L-66 -6
+             L-40 -30
+             L-14 -34
+             L-2 -34
+             L8 -30
+             L34 -18
+             L58 -2
+             L70 22
+             L64 46
+             L36 58
+             L-2 62
+             L-42 60
+             Z"
+          fill="url(#rhinoGrad)"/>
+    <!-- ear -->
+    <path d="M-40 -30 L-52 -48 L-30 -36 Z" fill="#B5761F"/>
+    <!-- eye (keyhole nod: circle + slot, vault theme) -->
+    <circle cx="-10" cy="0" r="6" fill="#1A1D23"/>
+    <rect x="-12" y="4" width="4" height="10" rx="1.5" fill="#1A1D23"/>
+  </g>
+
+  <!-- Bottom banner plate -->
+  <rect x="60" y="176" width="120" height="26" rx="4" fill="#0D0F12" opacity="0.85"/>
+  <text x="120" y="194" text-anchor="middle" font-family="Arial, sans-serif" font-weight="700"
+        font-size="14" fill="#E8A33D" letter-spacing="2">RHINOVAULT</text>
+</svg>
