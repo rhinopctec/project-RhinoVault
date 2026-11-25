@@ -21,6 +21,7 @@ RhinoVault is built and supported by **RhinoPCTec**. It is based on [Project N.O
 
 - **RhinoVault Base** (this server): install on a PC or mini server and reach it from any browser on your network. Instructions below.
 - **RhinoVault Go** (portable drive): the same library, plus ~180 U.S. military field manuals, an offline AI assistant that answers from them, offline maps and portable tools on a USB drive that runs on Windows, Mac and Linux with nothing to install. See [rhinovault-go/README.md](rhinovault-go/README.md).
+- **RhinoVault OS** (Android phones and tablets, planned): a RhinoVault-branded Android build that runs the RhinoVault Go library, maps and Survival AI on the device. See the [setup guide](rhinovault-os/SETUP-GUIDE.md).
 
 ### Field manuals in the server's AI Knowledge Base
 
